@@ -1,6 +1,6 @@
 {
-  "name": "cookyii/project",
-  "description": "Base application for Cookyii CMF",
+  "name": "cookyii/www",
+  "description": "Site about Cookyii CMF",
   "keywords": [
     "yii2",
     "framework",
@@ -19,8 +19,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/cookyii/project/issues?state=open",
-    "source": "https://github.com/cookyii/project"
+    "issues": "https://github.com/cookyii/www/issues?state=open",
+    "source": "https://github.com/cookyii/www"
   },
   "minimum-stability": "stable",
   "prefer-stable": true,
