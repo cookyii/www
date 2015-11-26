@@ -16,7 +16,7 @@ frontend\assets\AppAsset::register($this);
 
 $title = empty($this->title)
     ? APP_NAME
-    : Html::encode($this->title) . ' ~ ' . APP_NAME;
+    : Html::encode($this->title);
 
 /** @var \frontend\components\Controller $controller */
 $controller = $this->context;
