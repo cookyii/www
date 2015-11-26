@@ -1,0 +1,36 @@
+{
+  "name": "cookyii/base",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cookyii/base",
+  "license": "BSD-3-Clause",
+  "private": true,
+  "resolutions": {
+    "angular": "~1.4"
+  },
+  "dependencies": {
+    "angular": "1.4.*",
+    "angular-cookies": "1.4.*",
+    "angular-resource": "1.4.*",
+    "angular-animate": "1.4.*",
+    "angular-loader": "1.4.*",
+    "angular-sanitize": "1.4.*",
+    "angular-aria": "1.4.*",
+    "angular-material": "0.10.*",
+    "angular-redactor": "1.1.*",
+    "angular-scroll-pane": "1.0.*",
+    "angular-elastic": "2.4.*",
+    "angular-bootstrap": "0.13.*",
+    "angular-loading-bar": "0.7.*",
+    "angular-websocket": "1.0.*",
+    "angular-ui-utils": "0.2.*",
+    "angular-ui-uploader": "1.1.*",
+    "admin-lte": "2.1.*",
+    "smalot-bootstrap-datetimepicker": "2.3.*",
+    "jScrollPane": "2.0.*",
+    "jquery-form": "3.45.*",
+    "jquery.scrollTo": "2.1.*",
+    "sweetalert": "1.1.*",
+    "speakingurl": "5.0.*",
+    "moment": "2.10.*"
+  }
+}
