@@ -5,6 +5,12 @@
  * @link https://rmrevin.com
  */
 
+if (file_exists(__DIR__ . '/.env.php')) {
+    require __DIR__ . '/.env.php';
+}
+
+defined('YII_ENV') || define('YII_ENV', 'prod');
+
 /** @var array $apps list of existing applications */
 $apps = ['frontend', 'backend'];
 
@@ -15,7 +21,7 @@ automaticDetectionApplications($apps);
 $config = [
     'default' => [
         '.description' => 'Default build',
-        '.depends' => ['env/dev'],
+        '.depends' => [sprintf('env/%s', YII_ENV)],
     ],
 
     'map' => [
@@ -142,7 +148,7 @@ $config = [
         '.task' => [
             'class' => 'cookyii\build\tasks\CommandTask',
             'commandline' => './yii migrate --interactive=0',
-        ]
+        ],
     ],
 
     'rbac' => [
