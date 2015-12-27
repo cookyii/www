@@ -9,7 +9,7 @@ if (file_exists(__DIR__ . '/.env.php')) {
     require __DIR__ . '/.env.php';
 }
 
-defined('YII_ENV') || define('YII_ENV', 'prod');
+defined('YII_ENV') || define('YII_ENV', 'dev');
 
 /** @var array $apps list of existing applications */
 $apps = ['frontend', 'backend'];
